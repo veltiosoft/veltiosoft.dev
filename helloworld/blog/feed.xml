@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>HelloWorld Blog</title>
+        <link>https://veltiosoft.dev/helloworld/blog</link>
+        <description>The best place to stay up-to-date with the latest HelloWorld news and events.</description>
+        <lastBuildDate>Tue, 10 Nov 2020 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>HelloWorld Blog</title>
+            <url>https://veltiosoft.dev/helloworld/img/header-icon.png</url>
+            <link>https://veltiosoft.dev/helloworld/blog</link>
+        </image>
+        <copyright>Copyright © 2020 Veltiosoft</copyright>
+        <item>
+            <title><![CDATA[Version1.1]]></title>
+            <link>https://veltiosoft.dev/helloworld/blog/2020/11/10/version1.1.html</link>
+            <guid>https://veltiosoft.dev/helloworld/blog/2020/11/10/version1.1.html</guid>
+            <pubDate>Tue, 10 Nov 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<h3><a class="anchor" aria-hidden="true" id="new-feature"></a><a href="#new-feature" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>New Feature</h3> <p>Press to Startを追加してみたよ</p> <h3><a class="anchor" aria-hidden="true" id="buld-config"></a><a href="#buld-config" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Buld Config</h3> <ul> <li>applicationId &quot;com.veltiosoft.helloworld&quot;</li> <li>minSdkVersion 16</li> <li>targetSdkVersion 30</li> <li>versionCode 3</li> <li>versionName &quot;1.1&quot;</li> </ul> ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ゲームエンジンのバーションアップ]]></title>
+            <link>https://veltiosoft.dev/helloworld/blog/2020/10/18/ebiten-update.html</link>
+            <guid>https://veltiosoft.dev/helloworld/blog/2020/10/18/ebiten-update.html</guid>
+            <pubDate>Sun, 18 Oct 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>使用しているゲームエンジン<code>ebiten</code>のバージョンアップを行いました！</p> ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[リリース]]></title>
+            <link>https://veltiosoft.dev/helloworld/blog/2020/10/06/first-release.html</link>
+            <guid>https://veltiosoft.dev/helloworld/blog/2020/10/06/first-release.html</guid>
+            <pubDate>Tue, 06 Oct 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>ストアの審査に通りHelloWorldのAndroid版がリリースされました！ <a href="https://play.google.com/store/apps/details?id=com.veltiosoft.helloworld">こちら</a>からダウンロードができます！</p> ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hello, "HelloWorld"!]]></title>
+            <link>https://veltiosoft.dev/helloworld/blog/2020/09/19/project-started.html</link>
+            <guid>https://veltiosoft.dev/helloworld/blog/2020/09/19/project-started.html</guid>
+            <pubDate>Sat, 19 Sep 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>こんにちは！</p> <p>今日から「HelloWorld」というアプリの開発を進めていきます．</p> <p>さあ，伝説の幕開けだ！</p> ]]></description>
+        </item>
+    </channel>
+</rss>

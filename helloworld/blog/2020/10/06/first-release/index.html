@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>リリース · HelloWorld</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="ストアの審査に通りHelloWorldのAndroid版がリリースされました！"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="リリース · HelloWorld"/><meta property="og:type" content="website"/><meta property="og:url" content="https://veltiosoft.dev/helloworld/blog/2020/10/06/first-release"/><meta property="og:description" content="ストアの審査に通りHelloWorldのAndroid版がリリースされました！"/><meta property="og:image" content="https://veltiosoft.dev/helloworld/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://veltiosoft.dev/helloworld/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/helloworld/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://veltiosoft.dev/helloworld/blog/atom.xml" title="HelloWorld Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://veltiosoft.dev/helloworld/blog/feed.xml" title="HelloWorld Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/helloworld/js/scrollSpy.js"></script><link rel="stylesheet" href="/helloworld/css/main.css"/><script src="/helloworld/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/helloworld/"><img class="logo" src="/helloworld/img/header-icon.png" alt="HelloWorld"/><h2 class="headerTitleWithLogo">HelloWorld</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/helloworld/docs/user-guide" target="_self">ユーザーガイド</a></li><li class="siteNavGroupActive"><a href="/helloworld/blog/" target="_self">リリースノート</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helloworld/blog/2020/11/10/version1.1">Version1.1</a></li><li class="navListItem"><a class="navItem" href="/helloworld/blog/2020/10/18/ebiten-update">ゲームエンジンのバーションアップ</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/helloworld/blog/2020/10/06/first-release">リリース</a></li><li class="navListItem"><a class="navItem" href="/helloworld/blog/2020/09/19/project-started">Hello, &quot;HelloWorld&quot;!</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/helloworld/blog/2020/10/06/first-release">リリース</a></h1><p class="post-meta">October 6, 2020</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ivixvi" target="_blank" rel="noreferrer noopener">ivixvi</a></p></div></header><div><span><p>ストアの審査に通りHelloWorldのAndroid版がリリースされました！
+<a href="https://play.google.com/store/apps/details?id=com.veltiosoft.helloworld">こちら</a>からダウンロードができます！</p>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/helloworld/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>ドキュメント</h5><a href="/helloworld/docs/user-guide.html">ユーザーガイド</a><a href="/helloworld/blog">リリースノート</a></div><div><h5>More</h5><div class="social"><a href="https://twitter.com/veltiosoft" class="twitter-follow-button">Follow @veltiosoft</a></div></div></section><section class="copyright">Copyright © 2020 Veltiosoft</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>
