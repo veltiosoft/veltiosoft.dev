@@ -5,16 +5,29 @@
     <title>Not Found Redirect for GitHub Pages</title>
     <script type="text/javascript">
 
-        function checkRedirectTo(keyword) {
+        function simpleRedirectTo(keyword) {
             if (window.location.pathname.includes(keyword)) {
                 window.location.replace(`https://veltiosoft.dev/${keyword}/`);
                 return true;
             }
             return false;
         }
-        
-        checkRedirectTo('sink') 
-        || checkRedirectTo('helloworld') 
+
+        function sinkRedirectTo() {
+            var pathname = window.location.pathname
+            if (pathname.includes('sink')) {
+                var where = pathname.includes('logs') ? 'logs'
+                    : pathname.includes('settings') ? 'settings'
+                    : pathname.includes('policy') ? 'policy'
+                    : 'tracker';
+                window.location.replace(`https://veltiosoft.dev/sink/#/${where}`);
+                return true;
+            }
+            return false;
+        }
+
+        sinkRedirectTo() 
+        || simpleRedirectTo('helloworld') 
         || window.location.replace('https://twitter.com/veltiosoft');
         
     </script>
