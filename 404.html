@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Not Found Redirect for GitHub Pages</title>
+    <script type="text/javascript">
+
+        function checkRedirectTo(keyword) {
+            if (window.location.pathname.includes(keyword)) {
+                window.location.replace(`https://veltiosoft.dev/${keyword}/`);
+                return true;
+            }
+            return false;
+        }
+        
+        checkRedirectTo('sink') 
+        || checkRedirectTo('helloworld') 
+        || window.location.replace('https://twitter.com/veltiosoft');
+        
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
